@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionGroup="true"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <!--android:layout_above="@+id/ad_layout"-->
+
+    <!--<LinearLayout-->
+    <!--android:visibility="gone"-->
+    <!--android:gravity="end"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp">-->
+
+    <!--<com.elitech.offers.coupons.deals.Modules.CustomView.MaterialRippleLayout-->
+    <!--style="@style/ripple"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="50dp">-->
+    <!--<TextView-->
+    <!--android:id="@+id/txt_clearall"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:gravity="end"-->
+    <!--android:textStyle="bold"-->
+    <!--android:padding="10dp"-->
+    <!--android:textSize="17dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:layout_marginTop="05dp"-->
+    <!--android:layout_marginRight="15dp"-->
+    <!--android:text="Clear All"/>-->
+    <!--</com.elitech.offers.coupons.deals.Modules.CustomView.MaterialRippleLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--android:layout_above="@+id/ad_layout"-->
+        <!--<include layout="@layout/no_result_found" />-->
+
+        <!--<androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/notiswipeRefreshLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="5dp"-->
+
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:visibility="visible">-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/notificationList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                tools:listitem="@layout/fragment_notificationlistitem" />
+        <!--</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+    </FrameLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ad_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:visibility="visible">-->
+
+        <!--&lt;!&ndash;<include layout="@layout/ad_layout" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

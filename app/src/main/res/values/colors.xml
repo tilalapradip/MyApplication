@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#01233f</color>
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimaryDark">#01233f</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#01233f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="header">@color/colorPrimaryDark</color>
+    <color name="textColordarkPrimaryDark">#01233f</color>
+    <color name="LightGrayColor">#999999</color>
+    <color name="VeryLightGrayColor">#f1f1f1</color>
+    <color name="colorPrimary1Dark">#2f425b</color>
+    <color name="LightBlue">#cbe6ef</color>
+    <!--<color name="LightBlue">#8fcadd</color>-->
+    <!--<color name="colorPrimaryDark">#2f425b</color>-->
+</resources>

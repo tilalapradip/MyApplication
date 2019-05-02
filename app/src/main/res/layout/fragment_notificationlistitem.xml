@@ -1,0 +1,119 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="03dp"
+    android:layout_marginRight="03dp"
+    android:layout_marginTop="3dp"
+    android:visibility="visible"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="05dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_notification"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="03dp"
+                android:src="@drawable/ocd_placeholder" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_clock"
+                    android:layout_width="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="02dp" />
+                <!--android:background="@drawable/ic_clock_circular_outline"-->
+
+                <TextView
+                    android:id="@+id/txt_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp" />
+                <!--style="@style/txt_noti_time"-->
+                <!--android:text="09:00 PM"-->
+
+
+                <ImageView
+                    android:id="@+id/iv_date"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="02dp" />
+                <!--android:src="@drawable/ic_date"-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_date"-->
+                    <!--android:layout_width="8dp"-->
+                    <!--android:layout_height="8dp"-->
+                    <!--android:layout_marginLeft="15dp"-->
+                    <!--android:layout_marginTop="02dp"-->
+                     <!--/>-->
+                <!--android:background="@drawable/ic_calendar"-->
+                <!--android:src="@drawable/ic_date"-->
+
+                <TextView
+                    android:id="@+id/txt_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp" />
+                <!--style="@style/txt_noti_date"-->
+                <!--android:text="13-Mar-2019"-->
+                <!--android:layout_toEndOf="@+id/time"-->
+                <!--android:layout_toRightOf="@+id/time"-->
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="03dp"
+            android:layout_marginLeft="05dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_noti_title"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="05dp"
+                android:maxLines="2" />
+            <!--style="@style/txt_noti_title"-->
+
+            <TextView
+                android:id="@+id/txt_noti_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="05dp"
+                android:layout_marginLeft="05dp"
+                android:layout_marginRight="05dp"
+                android:maxLines="2" />
+            <!--style="@style/txt_noti_desc"-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

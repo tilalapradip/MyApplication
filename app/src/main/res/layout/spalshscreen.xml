@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<merge xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--FrameLayout-->
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="@color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         />
+    <!--android:src="@drawable/splash_bg"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="GeeksCompete"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/amaranth"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <!--<ImageView-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:scaleType="centerCrop" />-->
+    <!--android:src="@drawable/splash_icon"-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:indeterminateTint="@color/white"
+        android:indeterminateTintMode="src_in"
+        android:visibility="visible" />
+    <!--style="@style/ToolbarProgressStyle"-->
+
+    <TextView
+        android:id="@+id/application_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="TextView"
+        android:textColor="@color/white" />
+<!--</merge>-->
+</FrameLayout>

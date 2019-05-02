@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "982103809377",
+    "firebase_url": "https://geekscompete.firebaseio.com",
+    "project_id": "geekscompete",
+    "storage_bucket": "geekscompete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982103809377:android:4650237ee6acdb3a",
+        "android_client_info": {
+          "package_name": "quizcounter.geeks.compete.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982103809377-lb5hmtdggpitfhajqibqcbfht89tahur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "quizcounter.geeks.compete.myapplication",
+            "certificate_hash": "ae5797d62acb4b08908dac1bdea5e9a673d3c0a6"
+          }
+        },
+        {
+          "client_id": "982103809377-tkggu9ja7lt4m0ofvnh7j1c9j1bvflgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAurZHJmGjp4j_G-HVn11DLgPJPkwiM7TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982103809377-tkggu9ja7lt4m0ofvnh7j1c9j1bvflgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

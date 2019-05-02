@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="str_notificaions">Notifications</string>
+    <string name="str_attempts">Attempts</string>
+    <string name="str_papers">Papers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--<string name="nav_header_title">Android Studio</string>-->
+    <string name="nav_header_title">GeeksCompete</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_submit">SUBMIT</string>
+
+    <string name="title_activity_paper_list">PaperListActivity</string>
+
+
+    <!--<string name="banner_ad_id">ca-app-pub-6389454755694792/3097877465</string>-->
+    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-6389454755694792~1621144265</string>
+
+    <!--<string name="interstitialAd">ca-app-pub-6389454755694792/1770621066</string>-->
+    <string name="interstitialAd">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <!--<TextView-->
+        <!--android:id="@+id/tv_notif_header_home"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:padding="7dp"-->
+        <!--android:text="@string/str_notificaions"-->
+        <!--android:textSize="20sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_notif_1_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 1" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_notif_2_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 2" />-->
+
+<!--<TextView-->
+    <!--android:padding="7dp"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:id="@+id/btn_notif_more_home1"-->
+    <!--android:text="View All"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:background="@drawable/rounded_corner_back"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+
+    <!--<include layout="@layout/borderview" />-->
+
+    <!--<TextView-->
+        <!--android:textSize="20sp"-->
+
+        <!--android:padding="7dp"-->
+        <!--android:id="@+id/tv_attempts_header_home"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/str_attempts" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_attempts_1_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 1" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_attempts_2_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 2" />-->
+
+    <!--<TextView-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:id="@+id/btn_attempts_more_home"-->
+        <!--android:text="View All"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:padding="7dp"-->
+        <!--android:background="@drawable/rounded_corner_back"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<include layout="@layout/borderview" />-->
+
+    <!--<TextView-->
+        <!--android:textSize="20sp"-->
+        <!--android:padding="7dp"-->
+        <!--android:id="@+id/tv_papers_header_home"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/str_papers" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_papers_1_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 1" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_papers_2_home"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Notification 2" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/btn_papers_more_home"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:padding="7dp"-->
+        <!--android:text="View All"-->
+        <!--android:background="@drawable/rounded_corner_back"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>
